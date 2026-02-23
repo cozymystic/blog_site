@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Blog</title>
-    <!-- Link to external CSS -->
     <link rel="stylesheet" href="blog_site.css">
 </head>
 <body>
@@ -12,39 +11,60 @@
         <h1>Welcome to My Blog</h1>
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
+                <li><a href="#about">About This</a></li>
                 <li><a href="#posts">Blog Posts</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#social-links">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I’m [Your Name], and this is my personal space where I share thoughts, experiences, and stories.</p>
+        <h2>About This</h2>
+        <p>Hello! I’m Ayah, and this is my personal space where I share my thoughts, experiences, and stories. 
+        I write about my journey, passions, and the lessons I’ve learned along the way. 
+        This blog is my creative outlet and a way to connect with others who share similar interests.</p>
     </section>
 
-    <section id="posts">
-        <h2>Latest Posts</h2>
-        <article>
-            <h3>My First Blog Post</h3>
-            <p>This is where your blog content goes. You can write about your journey, hobbies, or anything personal.</p>
-            <a href="#">Read more...</a>
-        </article>
-        <article>
-            <h3>Another Story</h3>
-            <p>Here’s another sample post. Keep linking posts together to build your personal narrative.</p>
-            <a href="#">Read more...</a>
-        </article>
-    </section>
+  
+    <main>
+ 
+        <section id="posts">
+            <h2>Latest Posts</h2>
+            <div class="post-grid">
+                <article class="post-card">
+                    <h3>Faith: I Found God When I Wasn't Even Looking.</h3>
+                    <p>I didn’t grow up in church. I wasn’t even looking for God…</p>
+                    <a href="faith.html">Read more...</a>
+                </article>
 
-    <footer id="contact">
-        <p>Connect with me: 
-            <a href="https://www.linkedin.com/in/ayah-mia-76713a3b3/">LinkedIn</a> | 
-            <a href="https://github.com/cozymystic">GitHub</a> |
-            <a href="https://www.instagram.com/ayahh.aim/">Instagram</a> |
-            <a href="https://www.facebook.com/donette.meyahra">Facebook</a> 
-        </p>
+                <article class="post-card">
+                    <h3>From ABM to Computer Engineering: Yes, It's Hard.</h3>
+                    <p>Switching tracks from business to engineering isn’t easy, but here’s why it’s worth it…</p>
+                    <a href="abm.html">Read more...</a>
+                </article>
+
+                <article class="post-card">
+                    <h3>Dear Fellow Panganay: I See You. I Am You.</h3>
+                    <p>Being the eldest means carrying weight you didn’t ask for. Here’s my story…</p>
+                    <a href="panganay.html">Read more...</a>
+                </article>
+            </div>
+        </section>
+
+
+        <aside>
+            <h3>Connect with Me</h3>
+            <ul class="social-links" id="social-links">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="https://github.com/cozymystic">GitHub</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+        </aside>
+    </main>
+
+
+    <footer>
         <p>&copy; 2026 My Personal Blog</p>
     </footer>
 </body>
